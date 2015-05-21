@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\Users\John\Desktop\JustGo\app\build\intermediates\pre-dexed\debug\classes-241c7754f877490b4f16b1d302fb796689de6abe.jar"
+        jar="C:\Users\John\Desktop\JustGo\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6"/>
+    <item
+        dex="A:\Dropbox\JustGo\app\build\intermediates\pre-dexed\debug\classes-9c9feae0ec91f23d5286e4129150ccfd04c365b1.jar"
+        jar="A:\Dropbox\JustGo\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6"/>
+    <item
+        dex="A:\Dropbox\JustGo\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-87e704e211bb888b8e25eaa4dd4d6b6fef4e3946.jar"
+        jar="A:\Dropbox\JustGo\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\libs\internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0"/>
+    <item
+        dex="C:\Users\John\Desktop\JustGo\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-c12eb76d5041228a51bd104af4621d5b2f9a1e43.jar"
+        jar="C:\Users\John\Desktop\JustGo\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\libs\internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0"/>
+    <item
+        dex="C:\Users\John\Desktop\JustGo\app\build\intermediates\pre-dexed\debug\FlurryAnalytics-4.2.0-94398ab4be9014731054403cc840f6089f7dfe5c.jar"
+        jar="C:\Users\John\Desktop\JustGo\app\libs\FlurryAnalytics-4.2.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="39e06eb3e9363f82173d8b1c8ebc2d763486dce5"/>
+    <item
+        dex="C:\Users\John\Desktop\JustGo\app\build\intermediates\pre-dexed\debug\classes-42c66d32d01a867ae9c81adf35e4803d3cc8b285.jar"
+        jar="C:\Users\John\Desktop\JustGo\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.1.71\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="0f6d5c1ef2e982c3b7858408e3df389cf5d202da"/>
+    <item
+        dex="A:\Dropbox\JustGo\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.0-7a340b00b2725b3f73a78cca940799b5f94880d9.jar"
+        jar="C:\Users\John\AppData\Local\Android\android-studio\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.0\support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e"/>
+    <item
+        dex="A:\Dropbox\JustGo\app\build\intermediates\pre-dexed\debug\FlurryAnalytics-4.2.0-d3a7c34174157d2403c69fc1f177021663cb51ad.jar"
+        jar="A:\Dropbox\JustGo\app\libs\FlurryAnalytics-4.2.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="39e06eb3e9363f82173d8b1c8ebc2d763486dce5"/>
+    <item
+        dex="A:\Dropbox\JustGo\app\build\intermediates\pre-dexed\debug\classes-161748171b304e3b36c777fc6e396c085501ce81.jar"
+        jar="A:\Dropbox\JustGo\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.1.71\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="0f6d5c1ef2e982c3b7858408e3df389cf5d202da"/>
+
+</pre-dex-items>

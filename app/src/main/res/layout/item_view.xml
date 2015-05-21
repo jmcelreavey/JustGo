@@ -1,0 +1,139 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+
+    <ImageView
+        android:id="@+id/listItemTimeOfDayIc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/listItemStateTextTV"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/listItemDurationTextTV"
+        android:contentDescription="@string/time_of_day"
+        android:gravity="center"
+        android:padding="4dp"
+        android:src="@drawable/ic_morning_sun"/>
+
+    <TextView
+        android:id="@+id/listItemDateTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/listItemDistanceTextTV"
+        android:layout_toRightOf="@+id/listItemTimeOfDayIc"
+        android:paddingLeft="4dp"
+        android:paddingRight="20dp"
+        android:paddingTop="4dp"/>
+
+    <TextView
+        android:id="@+id/listItemTimeTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/listItemDateTV"
+        android:layout_toRightOf="@id/listItemTimeOfDayIc"
+        android:paddingLeft="4dp"
+        android:paddingRight="20dp"
+        android:paddingTop="4dp"/>
+
+    <TextView
+        android:id="@id/listItemDurationTextTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/listItemDateTV"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingTop="4dp"
+        android:text="@string/duration"/>
+
+    <TextView
+        android:id="@id/listItemDistanceTextTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/listItemDurationTextTV"
+        android:layout_toRightOf="@id/listItemDateTV"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingTop="4dp"
+        android:text="@string/distance"/>
+
+    <TextView
+        android:id="@+id/listItemCaloriesTextTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/listItemDistanceTextTV"
+        android:layout_toRightOf="@id/listItemDateTV"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingTop="4dp"
+        android:text="@string/calories"
+        android:autoText="false"/>
+
+    <TextView
+        android:id="@id/listItemStateTextTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/listItemCaloriesTextTV"
+        android:layout_toRightOf="@id/listItemDateTV"
+        android:paddingBottom="4dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingTop="4dp"
+        android:text="@string/state"/>
+
+    <TextView
+        android:id="@+id/listItemDurationTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/shareIv"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingTop="4dp"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/listItemDistanceTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/shareIv"
+        android:layout_below="@id/listItemDurationTextTV"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingTop="4dp"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/listItemCaloriesTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/shareIv"
+        android:layout_below="@id/listItemDistanceTextTV"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingTop="4dp"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/listItemStateTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/shareIv"
+        android:layout_below="@id/listItemCaloriesTV"
+        android:paddingBottom="4dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingTop="4dp"
+        android:text=""/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@id/shareIv"
+        android:layout_below="@+id/listItemDurationTV"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:paddingLeft="10dp"
+        android:src="@drawable/ic_share"
+        android:contentDescription="Share Exercise"/>
+
+</RelativeLayout>

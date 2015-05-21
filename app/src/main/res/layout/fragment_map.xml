@@ -1,0 +1,27 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.magatame.john.justgo.Map"
+    tools:layout="@layout/fragment_map"
+    android:weightSum="1"
+    android:background="@drawable/map_background">
+
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:id="@+id/mapId"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    tools:context="com.magatame.john.justgo.Map">
+</fragment>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:id="@+id/doneBtn"
+        android:layout_gravity="center"/>
+</LinearLayout>

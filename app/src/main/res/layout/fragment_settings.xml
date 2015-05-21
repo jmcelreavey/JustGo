@@ -1,0 +1,131 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:id="@+id/Settings"
+             android:gravity="center_horizontal"
+             android:orientation="vertical"
+             android:padding="30dp"
+             tools:context="com.magatame.john.justgo.Settings">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25">
+
+        <EditText
+            android:id="@+id/nameEdt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="@string/name_hint"
+            android:inputType="textPersonName"
+            />
+
+        <EditText
+            android:id="@+id/ageEdt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_weight="0.75"
+            android:hint="@string/age_hint"
+            android:inputType="number"/>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="3">
+
+            <ToggleButton
+                android:id="@+id/genderTBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@drawable/gender_choice"
+                android:textOff=""
+                android:textOn=""/>
+        </FrameLayout>
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25"
+        android:paddingLeft="15dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.10"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/weight_hint"
+            android:id="@+id/textView2"/>
+
+        <EditText
+            android:id="@+id/kgEdt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/kg_hint"
+            android:inputType="numberDecimal"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25"
+        android:paddingLeft="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.10"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/height_hint"
+            android:id="@+id/textView3"/>
+
+        <EditText
+            android:id="@+id/cmEdt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/cm_hint"
+            android:inputType="numberDecimal"
+            />
+    </TableRow>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/store_details"
+            android:id="@+id/saveBtn"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+        <ImageView
+            android:id="@+id/justGoLogo"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.5"
+            android:contentDescription="@string/just_go_logo"
+            android:src="@drawable/ic_launcher"/>
+    </TableRow>
+
+</TableLayout>

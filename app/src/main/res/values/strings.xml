@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JustGo</string>
+    <string name="name_hint">John Doe</string>
+    <string name="kg_hint">KG</string>
+    <string name="cm_hint">CM</string>
+    <string name="weight_hint">Weight:</string>
+    <string name="height_hint">Height:</string>
+    <string name="age_hint">Age</string>
+    <string name="just_go_logo">JustGo Logo</string>
+    <string name="store_details">Store Details</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="time_of_day">Current time of day</string>
+    <string name="current_location">Current Location:</string>
+    <string name="duration">Duration:</string>
+    <string name="start_time">Start Time:</string>
+    <string name="calories">Calories:</string>
+    <string name="route">Route</string>
+    <string name="state">State:</string>
+    <string name="longitude">Longitude:</string>
+    <string name="latitude">Latitude:</string>
+    <string name="distance">Distance:</string>
+    <string name="initialising">..Initialising</string>
+    <string name="idle">Idle</string>
+</resources>
